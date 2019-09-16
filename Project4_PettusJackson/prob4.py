@@ -5,4 +5,4 @@ def remove_duplicates(strList):
     for word in strList:
        	if word not in answer:
            	answer.append(word)
-    print answer
+    return answer

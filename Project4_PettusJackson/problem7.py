@@ -10,7 +10,7 @@ def read_File():
 def calc_Avg():
 	numberList = read_File()
 	listLength = len(numberList)
-	totalSum = 0;
+	totalSum = 0
 
 	for num in numberList:
 		totalSum += num
